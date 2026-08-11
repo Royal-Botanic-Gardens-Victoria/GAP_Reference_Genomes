@@ -8,7 +8,6 @@ cp_bbmap.sh
 mt_bbmap.sh
 getcpreads.sh > cphifiasm.sh > plastid genome > cp-ann.sh > plastid annotation
 getmtreads.sh > mthifiasm.sh > mitochondrial genome > mfannot-folder.sh > mitochondrial annotation
-
 Reads filtered of organelle genome reads:
 hifiasm.sh
 purge-hist.sh > set kmer freq. thresholds for purging
@@ -16,7 +15,7 @@ purge.sh > purged assembly
 purged assembly > repeatmodeler.sh > repeatmasker.sh > repeat counts / table
 purged assembly > tidk.sh > count-telomeres.py > telomeres
 purged assembly > compleasm.sh > BUSCO scores.
-purged assembly > nquire=contigs.sh > ploidy estimates
+purged assembly > nquire-contigs.sh > ploidy estimates
 purged assembly > gemoma.sh > annotations
 
 ONT reads:
